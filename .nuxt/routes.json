@@ -1,0 +1,23 @@
+[
+  {
+    "name": "profile",
+    "path": "/profile",
+    "component": "/Users/leesegyeong/Desktop/vue.js/ch1/front/pages/profile.vue",
+    "chunkName": "pages/profile",
+    "_name": "_77bc9fde"
+  },
+  {
+    "name": "signup",
+    "path": "/signup",
+    "component": "/Users/leesegyeong/Desktop/vue.js/ch1/front/pages/signup.vue",
+    "chunkName": "pages/signup",
+    "_name": "_481c7ff3"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/leesegyeong/Desktop/vue.js/ch1/front/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_07323472"
+  }
+]
