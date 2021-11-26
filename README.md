@@ -1,13 +1,13 @@
-# nuxt-with-vue
+# 🦜 nuxt-with-vue
 
 
 
-### 실행방법
+### ☘️ 실행방법
 
 - `npm install` , node_modules를 실행해준다.
 - `npm run dev` , localhost:3000에서 vue를 실행해준다.
 
-### 디렉토리
+### ☘️ 디렉토리
 
 **화면을 구성하는 view page**
 - pages
