@@ -41,5 +41,9 @@ export default {
 </script>
 
 <style>
-
+ a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+  }
 </style>
