@@ -34,5 +34,9 @@
 **modules 사용설정된 파일**
 - nuxt.config.js
 
-
+**store 여러 동적인 데이터를 모아놓은 곳**
+- store
+  - index.js
+  - posts.js
+  - users.js
 
