@@ -16,13 +16,13 @@
 
 ### ☘️ 파일 디렉토리
 
-**화면을 구성하는 view page**
+👉 **화면을 구성하는 view page**
 - pages
   - index.vue
   - profile.vue
   - signup.vue
 
-**공통기능으로 재사용성을 가진 components**
+👉 **공통기능으로 재사용성을 가진 components**
 - components
   - LoginForm.vue
   - FollowList.vue
@@ -30,14 +30,14 @@
   - PostCard.vue
   - PostForm.vue
 
-**공통 레이아웃 설정**
+👉 **공통 레이아웃 설정**
 - layouts
   - default.vue
 
-**modules 사용설정된 파일**
+👉 **modules 사용설정된 파일**
 - nuxt.config.js
 
-**store 여러 동적인 데이터를 모아놓은 곳**
+👉 **store 여러 동적인 데이터를 모아놓은 곳**
 - store
   - index.js
   - posts.js
