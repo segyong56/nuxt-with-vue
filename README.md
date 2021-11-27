@@ -4,6 +4,11 @@
 
 👉 https://kr.vuejs.org/v2/guide/installation.html
 
+### Preview
+
+<img width="1439" alt="스크린샷 2021-11-27 오후 6 24 13" src="https://user-images.githubusercontent.com/80687195/143675796-389312a6-fc8e-490e-88f9-328d562035e8.png">
+
+
 ### ☘️ 실행방법
 
 - `npm install` , node_modules를 실행해준다.
