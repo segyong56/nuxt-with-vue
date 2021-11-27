@@ -29,10 +29,16 @@
   </div>
 </template>
 
-
 <script>
-  export default {
+ import FollowList from '~/components/FollowList';
 
+  export default {
+    head: {
+      title: "Profile"
+    },
+    components: {
+      FollowList,
+    },
     data() {
       return {
         name: 'Nuxt.js'
