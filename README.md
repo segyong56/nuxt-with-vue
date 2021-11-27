@@ -24,8 +24,11 @@
 
 **공통기능으로 재사용성을 가진 components**
 - components
-  - CardPost.vue
   - LoginForm.vue
+  - FollowList.vue
+  - CommentForm.vue
+  - PostCard.vue
+  - PostForm.vue
 
 **공통 레이아웃 설정**
 - layouts
