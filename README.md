@@ -1,6 +1,8 @@
 # 🦜 nuxt-with-vue
 
+### 공식문서 참고하자
 
+👉 https://kr.vuejs.org/v2/guide/installation.html
 
 ### ☘️ 실행방법
 
