@@ -1,5 +1,6 @@
 
 <template>
+<div>
   <v-card style="margin-bottom: 20px">
     <v-img />
     <v-card-text>
@@ -18,7 +19,7 @@
         <v-icon>mdi-heart-outline</v-icon>
       </v-btn>
      
-      <v-btn text color="orange">
+      <v-btn text color="orange" @click="onToggleComment">
         <v-icon>mdi-comment-outline</v-icon>
       </v-btn>
 
@@ -35,21 +36,50 @@
       </v-menu>
     </v-card-actions>
   </v-card>
+  <template v-if="commentOpened">
+    <comment-form :post-id="post.id" />
+    <v-list>
+      <v-list-item v-for="c in post.Comments" :key="c.id">
+        <v-list-item-avatar color="teal">
+            <span>{{c.User.nickname[0]}}</span>
+          </v-list-item-avatar>
+          <v-list-item-content>
+            <h3>{{c.User.nickname}}</h3>
+            <div>{{c.content}}</div>
+          </v-list-item-content>
+      </v-list-item>
+    </v-list>
+  </template>
+  </div>
 </template>
 
 <script>
+import CommentForm from './CommentForm.vue'
   export default {
+    components: { 
+      CommentForm,
+    },
+
     props: {
       post: {
         type : Object,
         required: true
+      },
+    },
+    data() {
+      return {
+        commentOpened: false
       }
+
     },
     methods: {
       onRemovePost() {
         this.$store.dispatch('posts/remove', {
-
-        })
+          id: this.post.id
+        });
+      },
+      onToggleComment() {
+        this.commentOpened = !this.commentOpened;
       }
     }
   }

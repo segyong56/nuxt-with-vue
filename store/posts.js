@@ -20,10 +20,10 @@ export const mutations = {
 
 export const actions = {
 
-  add({ commit}, payload) {
+  add({ commit }, payload) {
     commit('addMainPost', payload)
   }, 
-  remove({ commit}, payload) {
+  remove({ commit }, payload) {
     commit('removeMainPost', payload)
   },
 

@@ -10,11 +10,19 @@
       :success-messages="successMessages"
       @input="onChangeTextarea"
     />
-    <v-btn color="green" dark absolute top right type="submit">삐약</v-btn>
+    <v-btn color="green" dark absolute top right type="submit" >삐약</v-btn>
   </v-form>
 </template>
+
 <script>
 export default {
+
+  props: {
+    postId: {
+      type: String,
+      required: true,
+    }
+  },
   data() {
     return {
       valid: false,
@@ -43,7 +51,7 @@ export default {
           id: Date.now(),
           postId: this.postId,
           content: this.content,
-          Userr : {
+          User : {
             nickname: this.me.nickname,
           },
         })
@@ -61,6 +69,7 @@ export default {
   }
 }
 </script>
+
 <style scoped>
 
 </style>
